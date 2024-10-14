@@ -362,7 +362,7 @@ function toggleFullScreen() {
       __v['fullSc_bulb'].style.right = '2px';
       __v['fullSc_bulb'].style.left = 'unset'
 
-        // document.body.style.overflow = "hidden";
+        document.body.style.overflow = "hidden";
     } else if (document.exitFullscreen) {
       document.exitFullscreen();
 
