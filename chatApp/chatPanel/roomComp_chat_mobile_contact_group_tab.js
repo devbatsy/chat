@@ -41,7 +41,7 @@ __SYD.chatApp_tab_two_group_tab_mobile = () =>{
             __c(
                 "div",
                 {
-                    style:`display:flex;flex-direction:row-reverse;justify-content:space-between;align-items:center;font-size:17px;text-transform:capitalize;font-weight:500;position:relative;border-bottom:1px solid ${SYD_VAR.plum};`
+                    style:`display:flex;flex-direction:row-reverse;padding:8px 0;justify-content:space-between;align-items:center;font-size:17px;text-transform:capitalize;font-weight:500;position:relative;border-bottom:1px solid ${SYD_VAR.plum};`
                 },
                 [
 
@@ -91,7 +91,7 @@ __SYD.chatApp_tab_two_people_tab_mobile = () =>{
             __c(
                 "div",
                 {
-                    style:`display:flex;flex-direction:row-reverse;justify-content:space-between;align-items:center;font-size:17px;text-transform:capitalize;font-weight:500;position:relative;border-bottom:1px solid ${SYD_VAR.plum}`
+                    style:`display:flex;flex-direction:row-reverse;padding:8px 0;justify-content:space-between;align-items:center;font-size:17px;text-transform:capitalize;font-weight:500;position:relative;border-bottom:1px solid ${SYD_VAR.plum}`
                 },
                 [
                     __SYD.display_mobile_menu_icon("chat_room_menu_tab_mobile_contact"),
