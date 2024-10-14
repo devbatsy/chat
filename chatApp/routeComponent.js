@@ -146,7 +146,7 @@ __SYD.chatAppfrontier_group_info = () =>{
             __c(
                 'div',
                 {
-                    style:`min-height:30px;min-width:30px;max-height:30px;max-width:30px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("../assets/testImage.jpg")`
+                    style:`min-height:40px;min-width:40px;max-height:40px;max-width:40px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("../assets/testImage.jpg")`
                 },[],
                 {
                     genericStyle:['bg_cover']
@@ -156,7 +156,7 @@ __SYD.chatAppfrontier_group_info = () =>{
             __c(
                 "div",
                 {
-                    style:"position:relative;height:100%;width:100%;margin-left:15px;display:flex;flex-direction:column;row-gap:5px;"
+                    style:"position:relative;height:100%;width:100%;margin-left:5px;display:flex;flex-direction:column;row-gap:5px;"
                 },
                 [
                     __c(
@@ -211,7 +211,7 @@ __SYD.chatAppfrontier_people_info = () =>{
             __c(
                 'div',
                 {
-                    style:`min-height:30px;min-width:30px;max-height:30px;max-width:30px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("../assets/testImage.jpg")`
+                    style:`min-height:40px;min-width:40px;max-height:40px;max-width:40px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("../assets/testImage.jpg")`
                 },[],
                 {
                     genericStyle:['bg_cover']
@@ -221,7 +221,7 @@ __SYD.chatAppfrontier_people_info = () =>{
             __c(
                 "div",
                 {
-                    style:"position:relative;height:100%;width:100%;margin-left:15px;display:flex;flex-direction:column;row-gap:5px;"
+                    style:"position:relative;height:100%;width:100%;margin-left:5px;display:flex;flex-direction:column;row-gap:5px;"
                 },
                 [
                     __c(
