@@ -56,7 +56,7 @@ __SYD.chat_main_tab_2__chat_main_tab_2__parent = () =>{
     return __c(
         'div',
         {
-            style:`display:${check ? 'flex' : 'none'};column-gap:17.5px;height:100%;width:100%;padding:0px;padding-top:unset;padding-bottom:unset;color:${SYD_VAR.plum};position:relative;`
+            style:`display:${check ? 'flex' : 'none'};column-gap:17.5px;height:100%;width:100%;padding:0px;padding-top:unset;padding-bottom:unset;color:${SYD_VAR.plum};position:relative;overflow:scroll;`
         },
         [
             __SYD.chat_main_tab_2(),//shown only on desktop mode
