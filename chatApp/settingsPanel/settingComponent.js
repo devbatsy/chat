@@ -131,7 +131,7 @@ __SYD.setting_display = () =>{
     return __c(
         "div",
         {
-            style:`height:100%;width:100%;margin-top:15px;background:${SYD_VAR.sand};display:flex;flex-direction:column;row-gap:30px;padding:15px 10px;`
+            style:`height:100%;width:100%;margin-top:15px;background:${SYD_VAR.sand};display:flex;flex-direction:column;row-gap:30px;padding:15px 10px;` + __sC['b_rad_l1']()
         },
         [
             __SYD.setLanguagePref(),
