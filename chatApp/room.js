@@ -10,7 +10,7 @@ import "./chatPanel/room_chat_client_profile_display.js"
 import "./homePanel/homeComponent.js"
 import "./notificationPanel/notifyComponent.js"
 import "./settingsPanel/settingComponent.js"
-// import "./googleTranslate.js"
+import "./googleTranslate.js"
 
 __SYD.container = () =>{
     return __c(
