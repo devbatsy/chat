@@ -129,7 +129,7 @@ __SYD.chat_main_tab3_chat_screen_top_tab_icons = () =>{
             __c(
                 "i",
                 {
-                    style:`min-height:30px;min-width:30px;height:30px;width:30px;background:linear-gradient(to bottom, ${SYD_VAR.plum_light}, ${SYD_VAR.plum} 130%);align-items:center;justify-content:center;display:flex;border-radius:50%;font-size:18px;font-weight:900;color:${SYD_VAR.plum_light};`,
+                    style:`min-height:30px;min-width:30px;height:30px;width:30px;background:linear-gradient(to bottom, ${SYD_VAR.plum_light}, ${SYD_VAR.plum} 130%);align-items:center;justify-content:center;display:flex;border-radius:50%;font-size:18px;font-weight:900;color:${SYD_VAR.sand};`,
                     class:"fa-solid fa-ellipsis-vertical"
                 },[],{
                     events:{
