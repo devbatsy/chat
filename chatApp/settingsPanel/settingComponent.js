@@ -361,11 +361,15 @@ function toggleFullScreen() {
 
       __v['fullSc_bulb'].style.right = '2px';
       __v['fullSc_bulb'].style.left = 'unset'
+
+        document.body.style.overflow = "hidden";
     } else if (document.exitFullscreen) {
       document.exitFullscreen();
 
       __v['fullSc_bulb'].style.left = '2px'
       __v['fullSc_bulb'].style.right = 'unset'
+
+        document.body.style.overflow = "visible";
     }
   }
 
