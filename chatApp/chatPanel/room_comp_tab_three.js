@@ -228,16 +228,27 @@ __SYD.chat_main_tab3_chat_text_message_tab_msg_box = () =>{
                         },
 
                         onfocus:e =>{
-                            if(document.fullscreenElement){
-                                document.exitFullscreen();
-                                initDisplay = true;
+                            // console.log(window.innerWidth , window.innerHeight)
+                            if(window.innerWidth < window.innerHeight)
+                            {
+                                // console.log('first')
+                                if(document.fullscreenElement){
+                                    document.exitFullscreen();
+                                    initDisplay = true;
+                                }
                             }
                         },
 
                         onblur:e =>{
-                            if(initDisplay){
-                                document.documentElement.requestFullscreen();
-                                initDisplay = false
+                            // console.log(window.innerWidth , window.innerHeight)
+                            if(window.innerWidth < window.innerHeight)
+                            {
+                                // console.log('came here')
+                                // console.log(initDisplay)
+                                if(initDisplay){
+                                    document.documentElement.requestFullscreen();
+                                    initDisplay = false
+                                }
                             }
                         }
                     }
