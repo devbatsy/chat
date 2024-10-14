@@ -63,7 +63,7 @@ __SYD.chat_main_tab3_chat_screen = () =>{
     return __c(
         "div",
         {
-            style:__sC['tab3_screen_tab']() + `display:${check ? 'flex':'none'};flex-direction:column;row-gap:10px;padding:15px 20px;justtify-content:flex-end;position:relative;overflow:hidden;`
+            style:__sC['tab3_screen_tab']() + `display:${check ? 'flex':'none'};flex-direction:column;row-gap:10px;padding:15px 20px;justtify-content:flex-end;position:relative;overflow:scroll;`
         },
         [
             __SYD.chat_main_tab3_chat_screen_top_tab(),
