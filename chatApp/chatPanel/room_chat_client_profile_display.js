@@ -65,7 +65,7 @@ __SYD.client_profile_name_about_tab = () =>{
             __c(
                 'div',
                 {
-                    style:`min-height:80px;min-width:80px;max-height:80px;max-width:80px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("../assets/testImage.jpg")`
+                    style:`min-height:80px;min-width:80px;max-height:80px;max-width:80px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("./testImage.jpg")`
                 },[],
                 {
                     genericStyle:['bg_cover']
