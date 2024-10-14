@@ -7,7 +7,7 @@ __SYD.notifyMainPanel = () =>{
     return __c(
         "div",
         {
-            style:`display:${check ? 'flex' : 'none'};column-gap:17.5px;height:100%;width:100%;padding:0px;padding-top:unset;padding-bottom:unset;color:${SYD_VAR.plum};position:relative;background:#fff;padding:28px;row-gap:20px;flex-direction:column;` + __sC['b_rad_l1']() + __sC['signUp_model_shadow']()
+            style:`display:${check ? 'flex' : 'none'};column-gap:17.5px;height:100%;width:100%;padding:0px;padding-top:unset;padding-bottom:unset;color:${SYD_VAR.plum};position:relative;background:#fff;padding:20px;row-gap:20px;flex-direction:column;` + __sC['b_rad_l1']() + __sC['signUp_model_shadow']()
         },
         [
             __c(
