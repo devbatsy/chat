@@ -237,6 +237,7 @@ __SYD.chat_main_tab3_chat_text_message_tab_msg_box = () =>{
                         onblur:e =>{
                             if(initDisplay){
                                 document.documentElement.requestFullscreen();
+                                initDisplay = false
                             }
                         }
                     }
