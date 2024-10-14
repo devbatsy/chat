@@ -18,7 +18,7 @@ __SYD.chat_main_tab_3 = () =>{
     return __c(
         "div",
         {
-            style:`display:${check ? 'block' : 'none'};height:100%;width:100%;background:${'#fff'};position:relative;` + __sC['b_rad_l1']() + __sC['signUp_model_shadow']()
+            style:`display:${check ? 'block' : 'none'};height:100%;min-height:fit-content;width:100%;background:${'#fff'};position:relative;` + __sC['b_rad_l1']() + __sC['signUp_model_shadow']()
         },
         [
             __SYD.chat_main_tab3_blank_screen(),
