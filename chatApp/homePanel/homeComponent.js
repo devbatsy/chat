@@ -14,7 +14,7 @@ __SYD.homeMainPanel = () =>{
             __c(
                 "div",
                 {
-                    style:`display:flex;flex-direction:row;justify-content:space-between;align-items:center;font-size:17px;text-transform:capitalize;font-weight:500;position:relative;border-bottom:1px solid ${SYD_VAR.plum}`
+                    style:`display:flex;flex-direction:row;justify-content:space-between;align-items:center;padding:8px 0;font-size:17px;text-transform:capitalize;font-weight:500;position:relative;border-bottom:1px solid ${SYD_VAR.plum}`
                 },
                 [
                     __c(
