@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: ubuntu;
-    src: url('../Ubuntu/Ubuntu-Regular.ttf');
+    src: url('./Ubuntu-Regular.ttf');
 }
 
 @font-face {
     font-family: jose;
-    src: url(../Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+    src: url(./JosefinSans-VariableFont_wght.ttf);
 }
 
 ::-webkit-scrollbar
