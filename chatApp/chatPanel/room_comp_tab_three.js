@@ -13,6 +13,8 @@ __sS({
     }
 })
 
+let initDisplay = false;
+
 __SYD.chat_main_tab_3 = () =>{
     const check = __p(['chatMainPanel' , 'displayTab3_text_display_area'],false) || __p(['chatMainPanel' , 'queryType_desktop_tab'],false)
     return __c(
@@ -223,6 +225,19 @@ __SYD.chat_main_tab3_chat_text_message_tab_msg_box = () =>{
                                     e.target.style.height = "20px";
                             }
 
+                        },
+
+                        onfocus:e =>{
+                            if(document.fullscreenElement){
+                                document.exitFullscreen();
+                                initDisplay = true;
+                            }
+                        },
+
+                        onblur:e =>{
+                            if(initDisplay){
+                                document.documentElement.requestFullscreen();
+                            }
                         }
                     }
                 }
