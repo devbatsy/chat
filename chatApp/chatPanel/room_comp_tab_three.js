@@ -110,7 +110,7 @@ __SYD.chat_main_tab3_chat_screen_top_tab_icons = () =>{
             __c(
                 "i",
                 {
-                    style:`font-size:18px;color:${SYD_VAR.rose};` + __sC['icon_style_18'](),
+                    style:`font-size:18px;color:${SYD_VAR.plum_light};` + __sC['icon_style_18'](),
                     class:"fa-solid fa-arrow-left"
                 },[],{
                     events:{
