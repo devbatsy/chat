@@ -46,7 +46,7 @@ __sS([
             width:'100vw',
             background:'#fbeedb',
             position:'relative',
-            overflow:'visible',
+            overflow-y:'scroll',
             fontFamily:'jose'
         }
     }
