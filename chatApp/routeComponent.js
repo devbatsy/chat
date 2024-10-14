@@ -119,7 +119,7 @@ __SYD.display_mobile_menu_icon = (componentName) =>{
     return __c(
         "i",
         {
-            style:`display:${!check_menu ? 'block' : 'none'};font-size:18px;font-weight:900;color:${SYD_VAR.plum_light};` + __sC['icon_style_18'](),
+            style:`display:${!check_menu ? 'flex' : 'none'};font-size:18px;font-weight:900;color:${SYD_VAR.sand};min-height:30px;min-width:30px;height:30px;width:30px;background:linear-gradient(to bottom, ${SYD_VAR.plum_light}, ${SYD_VAR.plum} 130%);align-items:center;justify-content:center;border-radius:50%;`,
             class:"fa-solid fa-grip-vertical"
         },[],{
             events:{
