@@ -162,7 +162,7 @@ __SYD.setLanguagePref = () =>{
                     style:'display:flex;column-gap:20px;align-items:center;text-transform:capitalize;flex-wrap:no-wrap;'
                 },
                 [
-                    __SYD.norm_2_text_component({value:"App language" , style:`color:${SYD_VAR.plum};font-weight:900;`}),// " "
+                    __SYD.norm_2_text_component({value:"App language" , style:`color:${SYD_VAR.plum};font-weight:500;`}),// " "
                     __SYD.googleTranslatePort()
                 ]
             )
@@ -208,7 +208,7 @@ __SYD.edit_font_size = () =>{
                     style:'display:flex;column-gap:20px;align-items:center;text-transform:capitalize;flex-wrap:no-wrap;'
                 },
                 [
-                    __SYD.norm_2_text_component({value:"font size" , style:`color:${SYD_VAR.plum};font-weight:900;`}),// " "
+                    __SYD.norm_2_text_component({value:"font size" , style:`color:${SYD_VAR.plum};font-weight:500;`}),// " "
                     __SYD.font_size_edit()
                 ]
             )
@@ -306,7 +306,7 @@ __SYD.enable_fullscreen_setting_btn = () =>{
                     style:'display:flex;column-gap:20px;align-items:center;text-transform:capitalize;flex-wrap:no-wrap;'
                 },
                 [
-                    __SYD.norm_2_text_component({value:"Enable fullscreen " , style:`color:${SYD_VAR.plum};font-weight:900;`}),// " "
+                    __SYD.norm_2_text_component({value:"Enable fullscreen " , style:`color:${SYD_VAR.plum};font-weight:500;`}),// " "
 
                     __c(
                         "div",
