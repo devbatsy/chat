@@ -146,7 +146,7 @@ __SYD.chatAppfrontier_group_info = () =>{
             __c(
                 'div',
                 {
-                    style:`min-height:40px;min-width:40px;max-height:40px;max-width:40px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("../assets/testImage.jpg")`
+                    style:`min-height:40px;min-width:40px;max-height:40px;max-width:40px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("./testImage.jpg")`
                 },[],
                 {
                     genericStyle:['bg_cover']
@@ -211,7 +211,7 @@ __SYD.chatAppfrontier_people_info = () =>{
             __c(
                 'div',
                 {
-                    style:`min-height:40px;min-width:40px;max-height:40px;max-width:40px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("../assets/testImage.jpg")`
+                    style:`min-height:40px;min-width:40px;max-height:40px;max-width:40px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("./testImage.jpg")`
                 },[],
                 {
                     genericStyle:['bg_cover']
@@ -278,7 +278,7 @@ __SYD.chatAppfrontier_top_user_profile = () =>{
             __c(
                 'div',
                 {
-                    style:`min-height:45px;min-width:45px;max-height:45px;max-width:45px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("../assets/testImage.jpg")`
+                    style:`min-height:45px;min-width:45px;max-height:45px;max-width:45px;border-radius:50%;background-color:${SYD_VAR.sand};background-image:url("./testImage.jpg")`
                 },[],
                 {
                     genericStyle:['bg_cover']
