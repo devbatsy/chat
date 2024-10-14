@@ -20,7 +20,7 @@ __SYD.chat_main_tab_3 = () =>{
     return __c(
         "div",
         {
-            style:`display:${check ? 'block' : 'none'};height:100%;overflow-y:scroll;width:100%;background:${'#fff'};position:relative;` + __sC['b_rad_l1']() + __sC['signUp_model_shadow']()
+            style:`display:${check ? 'block' : 'none'};height:100%;width:100%;background:${'#fff'};position:relative;` + __sC['b_rad_l1']() + __sC['signUp_model_shadow']()
         },
         [
             __SYD.chat_main_tab3_blank_screen(),
@@ -65,7 +65,7 @@ __SYD.chat_main_tab3_chat_screen = () =>{
     return __c(
         "div",
         {
-            style:__sC['tab3_screen_tab']() + `display:${check ? 'flex':'none'};flex-direction:column;row-gap:10px;padding:15px 20px;justtify-content:flex-end;position:relative;overflow:scroll;`
+            style:__sC['tab3_screen_tab']() + `display:${check ? 'flex':'none'};flex-direction:column;row-gap:10px;padding:15px 20px;justify-content:flex-end;position:relative;`
         },
         [
             __SYD.chat_main_tab3_chat_screen_top_tab(),
