@@ -35,7 +35,7 @@ __SYD.chatApp_tab_two_group_tab_mobile = () =>{
     return __c(
         "div",
         {
-            style:`min-height:200px;width:100%;background:#fff;padding:8px;padding-right:12px;display:${check ? 'flex' : 'none'};flex-direction:column;row-gap:20px;`
+            style:`min-height:200px;width:100%;background:#fff;display:${check ? 'flex' : 'none'};flex-direction:column;row-gap:20px;`
         },
         [
             __c(
@@ -85,7 +85,7 @@ __SYD.chatApp_tab_two_people_tab_mobile = () =>{
     return __c(
         "div",
         {
-            style:`min-height:200px;width:100%;background:#fff;padding:8px;padding-right:12px;display:${check ? 'flex' : 'none'};flex-direction:column;row-gap:20px;`
+            style:`min-height:200px;width:100%;background:#fff;display:${check ? 'flex' : 'none'};flex-direction:column;row-gap:20px;`
         },
         [
             __c(
